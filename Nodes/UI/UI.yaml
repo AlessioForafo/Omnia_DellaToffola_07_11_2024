@@ -425,3 +425,4 @@ Children:
 - File: Screens/Screens.yaml
 - File: AlarmWidgets/AlarmWidgets.yaml
 - File: Widgets/Widgets.yaml
+- File: AdvancedTrend/AdvancedTrend.yaml

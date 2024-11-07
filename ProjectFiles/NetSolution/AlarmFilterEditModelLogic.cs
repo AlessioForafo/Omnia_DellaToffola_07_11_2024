@@ -8,6 +8,9 @@ using FTOptix.Alarm;
 using FTOptix.System;
 using FTOptix.RAEtherNetIP;
 using FTOptix.SerialPort;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.DataLogger;
 #endregion
 
 public class AlarmFilterEditModelLogic : BaseNetLogic

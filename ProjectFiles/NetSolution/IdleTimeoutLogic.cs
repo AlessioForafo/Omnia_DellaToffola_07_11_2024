@@ -9,6 +9,9 @@ using FTOptix.UI;
 using FTOptix.NativeUI;
 using FTOptix.CoreBase;
 using FTOptix.NetLogic;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.DataLogger;
 #endregion
 
 public class IdleTimeoutLogic : BaseNetLogic

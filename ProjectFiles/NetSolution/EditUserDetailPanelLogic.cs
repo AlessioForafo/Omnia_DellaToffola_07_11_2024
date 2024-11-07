@@ -7,6 +7,9 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.WebUI;
 using System.Linq;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.DataLogger;
 #endregion
 
 public class EditUserDetailPanelLogic : BaseNetLogic

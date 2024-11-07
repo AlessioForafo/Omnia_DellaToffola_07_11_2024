@@ -10,3 +10,36 @@ Children:
   ValueRank: OneDimension
   ArrayDimensions: [0]
   Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":0,"DisplayName":{"LocaleId":"en-US","Text":"pp/mm"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":0,"Slope":10.0,"Intercept":1.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":1,"DisplayName":{"LocaleId":"en-US","Text":"ppq/mm"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":0,"Slope":60.0,"Intercept":20.0}}]
+- File: TagsToLog/TagsToLog.yaml
+- Class: DataType
+  Name: MyStatuses
+  Id: g=f9604e7b2750254866d1f1be5418626c
+  Supertype: Enumeration
+  EnumDefinition: 
+   {
+    "Name": "MyStatuses",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f9604e7b2750254866d1f1be5418626c",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Value0",
+      "Value": 0,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": ""
+      }
+     }]
+   }
+  Children:
+  - Name: ns=0;EnumValues
+    Type: BaseDataVariableType
+    DataType: EnumValueType
+    ModellingRule: None
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":""},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32

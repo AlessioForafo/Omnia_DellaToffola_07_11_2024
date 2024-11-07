@@ -5,6 +5,9 @@ using CoreBase = FTOptix.CoreBase;
 using FTOptix.HMIProject;
 using UAManagedCore;
 using FTOptix.NetLogic;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.DataLogger;
 #endregion
 
 public class ChildrenCounter : BaseNetLogic
