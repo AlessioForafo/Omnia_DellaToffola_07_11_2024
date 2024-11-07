@@ -1,0 +1,18 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=9d5d1fb4eddf0b80e711f24584be21b0
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=990142ec29cae3eac7a0abd376fd956e
+- Name: User2
+  Id: g=b46597fd6bc53ac8c299a9662aae9d9a
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=79b91147d10b3c302f6c982a06d84b23
