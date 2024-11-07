@@ -43,3 +43,8 @@ Children:
 - Name: Variable1
   Type: BaseDataVariableType
   DataType: Int32
+- Name: MatrixTest
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: 2
+  ArrayDimensions: [5,2]

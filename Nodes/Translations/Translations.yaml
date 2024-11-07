@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [156,4],
+    "Dimensions": [158,4],
     "Body": [
      "","en-US","it-IT","ru-RU",
      "Hello","Hello","Ciao","привет",
@@ -166,6 +166,8 @@ Children:
      "Start","Start","Inizio","",
      "Pens","Pens","Penne","",
      "Background","Background","Sfondo","",
-     "Thresholds","Thresholds","Soglie",""
+     "Thresholds","Thresholds","Soglie","",
+     "Column0","Column0","Colonna0","",
+     "Column1","Column1","Colonna1",""
     ]
    }
